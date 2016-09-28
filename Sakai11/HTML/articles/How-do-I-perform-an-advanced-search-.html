@@ -39,15 +39,19 @@
 <li><strong>title</strong>: A tokenized stored index of the title of the search document.</li>
 <li><strong>reference</strong>: A keyword stored index of the Sakai Entity reference.</li>
 </ul>
-      </div>      <div id="steps-container">          <div id="step-14409" class="step-container">            <h2 class="step-title">Go to Search.</h2>            <div class="step-instructions"><p>Select the <strong>Search</strong> tool from the Tool Menu in your site.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14410" class="step-container">            <h2 class="step-title">Advanced Search Options</h2>            <div class="step-instructions"><p>Use the search information below to enter advanced search strings into the search box.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14411" class="step-container">            <h2 class="step-title">Lucene Search Information</h2>            <div class="step-instructions"><p>The Query Engine is based on Apache Lucene. For completeness the Apache Query documentation is included below. More information can be found at <a href="http://lucene.apache.org/java/docs/queryparsersyntax.html">http://lucene.apache.org/java/docs/queryparsersyntax.html</a></p></div>          </div>
-          <div class="clear"></div>          <div id="step-14412" class="step-container">            <h3 class="step-title">Terms</h3>            <div class="step-instructions"><p>A query is broken up into terms and operators. There are two types of terms: Single Terms and Phrases.</p>
+      </div>      <div id="steps-container">          <div id="step-25486" class="step-container">            <h2 class="step-title">Go to Search.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-perform-an-advanced-search-/Go-to-Search.png" width="115" height="147" class="step-image" alt="Go to Search." />
+            
+          </div>
+            <div class="step-instructions"><p>Select the <strong>Search</strong> tool from the Tool Menu in your site.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-25487" class="step-container">            <h2 class="step-title">Advanced Search Options</h2>            <div class="step-instructions"><p>Use the search information below to enter advanced search strings into the search box.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-25488" class="step-container">            <h2 class="step-title">Lucene Search Information</h2>            <div class="step-instructions"><p>The Query Engine is based on Apache Lucene. For completeness the Apache Query documentation is included below. More information can be found at <a href="http://lucene.apache.org/java/docs/queryparsersyntax.html">http://lucene.apache.org/java/docs/queryparsersyntax.html</a></p></div>          </div>
+          <div class="clear"></div>          <div id="step-25489" class="step-container">            <h3 class="step-title">Terms</h3>            <div class="step-instructions"><p>A query is broken up into terms and operators. There are two types of terms: Single Terms and Phrases.</p>
 <p>A Single Term is a single word such as &quot;test&quot; or &quot;hello&quot;.</p>
 <p>A Phrase is a group of words surrounded by double quotes such as &quot;hello dolly&quot;.</p>
 <p>Multiple terms can be combined together with Boolean operators to form a more complex query (see below).</p>
 <p>Note: The analyzer used to create the index will be used on the terms and phrases in the query string. So it is important to choose an analyzer that will not interfere with the terms used in the query string.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14413" class="step-container">            <h3 class="step-title">Fields</h3>            <div class="step-instructions"><p>Lucene supports fielded data. When performing a search you can either specify a field, or use the default field. The field names and default field is implementation specific.</p>
+          <div class="clear"></div>          <div id="step-25490" class="step-container">            <h3 class="step-title">Fields</h3>            <div class="step-instructions"><p>Lucene supports fielded data. When performing a search you can either specify a field, or use the default field. The field names and default field is implementation specific.</p>
 <p>You can search any field by typing the field name followed by a colon &quot;:&quot; and then the term you are looking for.</p>
 <p>As an example, let's assume a Lucene index contains two fields, title and text and text is the default field. If you want to find the document entitled &quot;The Right Way&quot; which contains the text &quot;don't go this way&quot;, you can enter:</p>
 <p>title:&quot;The Right Way&quot; AND text:go</p>
@@ -57,8 +61,8 @@
 <p>Note: The field is only valid for the term that it directly precedes, so the query</p>
 <p>title:Do it right</p>
 <p>Will only find &quot;Do&quot; in the title field. It will find &quot;it&quot; and &quot;right&quot; in the default field (in this case the text field).</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14414" class="step-container">            <h3 class="step-title">Term Modifiers</h3>            <div class="step-instructions"><p>Lucene supports modifying query terms to provide a wide range of searching options.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14415" class="step-container">            <h3 class="step-title">Wildcard Searches</h3>            <div class="step-instructions"><p>Lucene supports single and multiple character wildcard searches.</p>
+          <div class="clear"></div>          <div id="step-25491" class="step-container">            <h3 class="step-title">Term Modifiers</h3>            <div class="step-instructions"><p>Lucene supports modifying query terms to provide a wide range of searching options.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-25492" class="step-container">            <h3 class="step-title">Wildcard Searches</h3>            <div class="step-instructions"><p>Lucene supports single and multiple character wildcard searches.</p>
 <p>To perform a single character wildcard search use the &quot;?&quot; symbol.</p>
 <p>To perform a multiple character wildcard search use the &quot;*&quot; symbol.</p>
 <p>The single character wildcard search looks for terms that match that with the single character replaced. For example, to search for &quot;text&quot; or &quot;test&quot; you can use the search:</p>
@@ -68,21 +72,21 @@
 <p>You can also use the wildcard searches in the middle of a term.</p>
 <p>te*t</p>
 <p>Note: You cannot use a * or ? symbol as the first character of a search.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14416" class="step-container">            <h3 class="step-title">Fuzzy Searches</h3>            <div class="step-instructions"><p>Lucene supports fuzzy searches based on the Levenshtein Distance, or Edit Distance algorithm. To do a fuzzy search use the tilde, &quot;~&quot;, symbol at the end of a Single word Term. For example to search for a term similar in spelling to &quot;roam&quot; use the fuzzy search:</p>
+          <div class="clear"></div>          <div id="step-25493" class="step-container">            <h3 class="step-title">Fuzzy Searches</h3>            <div class="step-instructions"><p>Lucene supports fuzzy searches based on the Levenshtein Distance, or Edit Distance algorithm. To do a fuzzy search use the tilde, &quot;~&quot;, symbol at the end of a Single word Term. For example to search for a term similar in spelling to &quot;roam&quot; use the fuzzy search:</p>
 <p>roam~</p>
 <p>This search will find terms like foam and roams.</p>
 <p>Starting with Lucene 1.9 an additional (optional) parameter can specify the required similarity. The value is between 0 and 1, with a value closer to 1 only terms with a higher similarity will be matched. For example:</p>
 <p>roam~0.8</p>
 <p>The default that is used if the parameter is not given is 0.5.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14417" class="step-container">            <h3 class="step-title">Proximity Searches</h3>            <div class="step-instructions"><p>Lucene supports finding words are a within a specific distance away. To do a proximity search use the tilde, &quot;~&quot;, symbol at the end of a Phrase. For example to search for a &quot;apache&quot; and &quot;jakarta&quot; within 10 words of each other in a document use the search:</p>
+          <div class="clear"></div>          <div id="step-25494" class="step-container">            <h3 class="step-title">Proximity Searches</h3>            <div class="step-instructions"><p>Lucene supports finding words are a within a specific distance away. To do a proximity search use the tilde, &quot;~&quot;, symbol at the end of a Phrase. For example to search for a &quot;apache&quot; and &quot;jakarta&quot; within 10 words of each other in a document use the search:</p>
 <p>&quot;jakarta apache&quot;~10</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14418" class="step-container">            <h3 class="step-title">Range Searches</h3>            <div class="step-instructions"><p>Range Queries allow one to match documents whose field(s) values are between the lower and upper bound specified by the Range Query. Range Queries can be inclusive or exclusive of the upper and lower bounds. Sorting is done lexicographically.</p>
+          <div class="clear"></div>          <div id="step-25495" class="step-container">            <h3 class="step-title">Range Searches</h3>            <div class="step-instructions"><p>Range Queries allow one to match documents whose field(s) values are between the lower and upper bound specified by the Range Query. Range Queries can be inclusive or exclusive of the upper and lower bounds. Sorting is done lexicographically.</p>
 <p>mod_date:[20020101 TO 20030101]</p>
 <p>This will find documents whose mod_date fields have values between 20020101 and 20030101, inclusive. Note that Range Queries are not reserved for date fields. You could also use range queries with non-date fields:</p>
 <p>title:{Aida TO Carmen}</p>
 <p>This will find all documents whose titles are between Aida and Carmen, but not including Aida and Carmen.</p>
 <p>Inclusive range queries are denoted by square brackets. Exclusive range queries are denoted by curly brackets.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14419" class="step-container">            <h3 class="step-title">Boosting a Term</h3>            <div class="step-instructions"><p>Lucene provides the relevance level of matching documents based on the terms found. To boost a term use the caret, &quot;^&quot;, symbol with a boost factor (a number) at the end of the term you are searching. The higher the boost factor, the more relevant the term will be.</p>
+          <div class="clear"></div>          <div id="step-25496" class="step-container">            <h3 class="step-title">Boosting a Term</h3>            <div class="step-instructions"><p>Lucene provides the relevance level of matching documents based on the terms found. To boost a term use the caret, &quot;^&quot;, symbol with a boost factor (a number) at the end of the term you are searching. The higher the boost factor, the more relevant the term will be.</p>
 <p>Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for</p>
 <p>jakarta apache</p>
 <p>and you want the term &quot;jakarta&quot; to be more relevant boost it using the ^ symbol along with the boost factor next to the term. You would type:</p>
@@ -90,7 +94,7 @@
 <p>This will make documents with the term jakarta appear more relevant. You can also boost Phrase Terms as in the example:</p>
 <p>&quot;jakarta apache&quot;^4 &quot;Apache Lucene&quot;</p>
 <p>By default, the boost factor is 1. Although the boost factor must be positive, it can be less than 1 (e.g. 0.2)</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14420" class="step-container">            <h3 class="step-title">Boolean operators</h3>            <div class="step-instructions"><p>Boolean operators allow terms to be combined through logic operators. Lucene supports AND, &quot;+&quot;, OR, NOT and &quot;-&quot; as Boolean operators(Note: Boolean operators must be ALL CAPS). OR</p>
+          <div class="clear"></div>          <div id="step-25497" class="step-container">            <h3 class="step-title">Boolean operators</h3>            <div class="step-instructions"><p>Boolean operators allow terms to be combined through logic operators. Lucene supports AND, &quot;+&quot;, OR, NOT and &quot;-&quot; as Boolean operators(Note: Boolean operators must be ALL CAPS). OR</p>
 <p>The OR operator is the default conjunction operator. This means that if there is no Boolean operator between two terms, the OR operator is used. The OR operator links two terms and finds a matching document if either of the terms exist in a document. This is equivalent to a union using sets. The symbol || can be used in place of the word OR.</p>
 <p>To search for documents that contain either &quot;jakarta apache&quot; or just &quot;jakarta&quot; use the query:</p>
 <p>&quot;jakarta apache&quot; jakarta</p>
@@ -114,14 +118,14 @@
 <p>The &quot;-&quot; or prohibit operator excludes documents that contain the term after the &quot;-&quot; symbol.</p>
 <p>To search for documents that contain &quot;jakarta apache&quot; but not &quot;Apache Lucene&quot; use the query:</p>
 <p>&quot;jakarta apache&quot; -&quot;Apache Lucene&quot;</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14421" class="step-container">            <h3 class="step-title">Grouping</h3>            <div class="step-instructions"><p>Lucene supports using parentheses to group clauses to form sub queries. This can be very useful if you want to control the boolean logic for a query.</p>
+          <div class="clear"></div>          <div id="step-25498" class="step-container">            <h3 class="step-title">Grouping</h3>            <div class="step-instructions"><p>Lucene supports using parentheses to group clauses to form sub queries. This can be very useful if you want to control the boolean logic for a query.</p>
 <p>To search for either &quot;jakarta&quot; or &quot;apache&quot; and &quot;website&quot; use the query:</p>
 <p>(jakarta OR apache) AND website</p>
 <p>This eliminates any confusion and makes sure you that website must exist and either term jakarta or apache may exist.</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14422" class="step-container">            <h3 class="step-title">Field Grouping</h3>            <div class="step-instructions"><p>Lucene supports using parentheses to group multiple clauses to a single field.</p>
+          <div class="clear"></div>          <div id="step-25499" class="step-container">            <h3 class="step-title">Field Grouping</h3>            <div class="step-instructions"><p>Lucene supports using parentheses to group multiple clauses to a single field.</p>
 <p>To search for a title that contains both the word &quot;return&quot; and the phrase &quot;pink panther&quot; use the query:</p>
 <p>title:(+return +&quot;pink panther&quot;)</p></div>          </div>
-          <div class="clear"></div>          <div id="step-14423" class="step-container">            <h3 class="step-title">Escaping Special Characters</h3>            <div class="step-instructions"><p>Lucene supports escaping special characters that are part of the query syntax. The current list special characters are</p>
+          <div class="clear"></div>          <div id="step-25500" class="step-container">            <h3 class="step-title">Escaping Special Characters</h3>            <div class="step-instructions"><p>Lucene supports escaping special characters that are part of the query syntax. The current list special characters are</p>
 <p>+ - &amp;&amp; || ! ( ) { } [ ] ^ &quot; ~ * ? : \</p>
 <p>To escape these character use the \ before the character. For example to search for (1+1):2 use the query:</p>
 <p>\(1\+1\)\:2</p></div>          </div>

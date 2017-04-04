@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How do I add extra credit to weighted categories in Gradebook2?</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="sakai.gradebook.gwt.rpc" name="description">
+  <meta content="" name="search">
+  <link href="/library/skin/tool_base.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/tool.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/help.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/js/jquery/featherlight/0.4.0/featherlight.min.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <script src="/library/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/library/js/jquery/featherlight/0.4.0/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $("a[rel^='featherlight']").featherlight({
+        type: { image:true },
+		closeOnClick: 'anywhere'
+      }); 
+    }); 	
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="article-content">
+      <div id="article-header">
+        <h1 class="article-title">How do I add extra credit to weighted categories in Gradebook2?</h1>
+      </div>
+
+            <div id="article-description">
+        <p>The Gradebook2 tool does not allow scores above the maximum value. For instance, if grading by Points, and the maximum point value is set to 150, you cannot assign a score of 155 points. If grading by percentages, you cannot assign a score of 105%.  If grading by letter grade, you cannot assign a score of A++.</p>
+<p>Some instructors may want to award extra credit either as an addition to an existing grade or as a separate extra credit assignment. </p>
+<p>The method of adding extra credit is slightly different depending on whether the gradebook is &quot;non-weighted&quot;, &quot;non-weighted categories&quot; or &quot;weighted categories&quot; </p>
+<p>It is also slightly dependent on whether the gradebook is scored by &quot;points&quot;, &quot;percentages&quot; or &quot;letter grades&quot;.</p>
+<p><strong>In all instances of adding extra credit, it is important to look at the total number of possible points that can be awarded for the semester to a student and base your extra credit calculations on how will it affect the final Course Grade.</strong></p>
+<p>This becomes a bit more complex when working with a weighted categories gradebook because instructors have the option to add an extra credit <strong>item</strong> to an existing category (which affectes to overall grade only as much as the weighted category affects the overall grade) or they can add an &quot;weighted&quot; Extra Credit <strong>category</strong> and place extra credit items within it (which will affect the overall grade only as much as the extra credit weighted category affects the overall grade).</p>
+<ul><li>Case 1: Adding an extra credit item to an existing category.</li>
+<li>Case 2: Adding an extra credit category.</li>
+</ul>
+      </div>      <div id="steps-container">          <div id="step-27946" class="step-container">            <h2 class="step-title">Go to Gradebook2.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Go-to-Gradebook2.png" width="103" height="145" class="step-image" alt="Go to Gradebook2." />
+            
+          </div>
+            <div class="step-instructions"><p>Select <strong>Gradebook2</strong> from the Tool Menu in your site.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27947" class="step-container">            <h2 class="step-title">Case 1: Adding an extra credit item to an existing category</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Case-1--Adding-an-extra-credit-item-to-an-existing.png" width="400" height="383" class="step-image" alt="Case 1: Adding an extra credit item to an existing category" />
+            
+          </div>
+            <div class="step-instructions"><p>Right-click the name of the Category and select <strong>Add a new grade item</strong>.</p>
+<p>This displays the New Item panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27948" class="step-container">            <h2 class="step-title">(Weighted Category gradebook - Scoring by Points) - Enter Extra Credit Item Information, then click Add/Close</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Points---sm.png" width="640" height="362" class="step-image" alt="(Weighted Category gradebook - Scoring by Points) - Enter Extra Credit Item Information, then click Add/Close" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Points--.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><ol><li>Enter a <strong>Name</strong> for the Extra Credit item.</li>
+<li>Note that this new item is located in an existing <strong>category.</strong></li>
+<li>Enter the<strong> Percentage </strong>of the category. For instance, in the example above the extra credit item is worth 5% of the Papers category. Since the papers category is worth 50% of the Course Grade, the extra credit item (if given full credit) is worth 2.5% of the Course Grade (.05 x 50).</li>
+<li>Enter a <strong>Points</strong> value for the Extra Credit Item.<em><strong> </strong></em>When grading by points set this number in some relationship to the percentage number for easier calculation. In the example above, the maximum point value is set to 5 (same as the percentage). Since, in this case, the item is worth a maximum of 2.5% of the course grade, every point awarded here is worth .5% of the course grade. A grade of &quot;4&quot; adds 2% to the course grade.</li>
+<li><strong>Include</strong> this Extra credit item in the running course grade calculation.</li>
+<li>Indicate that this item is &quot;<strong>Extra Credit</strong>&quot;. That is, students are not required to be graded for this item and any grade given to a student for this item can only positively affect their course grade.</li>
+<li>Check <strong>Release Scores</strong> to let students see their scores and statistics for the item. Note: Usually, this is kept unchecked until the instructor is ready to release the item scores to the students. Instructors can always return to these settings and change the &quot;Release Scores&quot; setting later.</li>
+<li><span style="text-decoration:underline"><strong>Important:</strong></span> Do not check <strong>Give ungraded no credit</strong> for an Extra Credit item. Students that do not perform extra credit should not receive any grade for this item.</li>
+<li>Click <strong>Add/Close</strong> to add the Extra Credit item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27949" class="step-container">            <h3 class="step-title">Example: (Weighted Category gradebook - Scoring by Points)</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by-sm.png" width="640" height="210" class="step-image" alt="Example: (Weighted Category gradebook - Scoring by Points)" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p><em>Tip: You might want to have a single &quot;Extra Credit&quot; item and just increase the awarded score as needed through the semester.</em></p></div>          </div>
+          <div class="clear"></div>          <div id="step-27950" class="step-container">            <h2 class="step-title">(Weighted Category gradebook - Scoring by Percentages) - Enter Extra Credit Item Information, then click Add/Close</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Percenta-sm.png" width="640" height="336" class="step-image" alt="(Weighted Category gradebook - Scoring by Percentages) - Enter Extra Credit Item Information, then click Add/Close" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Percenta.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><ol><li>Enter a <strong>Name</strong> for the Extra Credit item.</li>
+<li>Note that this new item is located in an existing <strong>Category.</strong></li>
+<li>Enter the<strong> Percentage </strong>of the category. For instance, in the example above the extra credit item is worth 5% of the Papers category. Since the papers category is worth 50% of the course grade, the extra credit item (if given full credit) is worth 2.5% of the course grade (.05 x 50).</li>
+<li>Enter a <strong>Points</strong> value for the Extra Credit Item.<em><strong> </strong></em>When grading by percentage set this number to 100. In the example above, the point value is set to 100. Since, in this case, the item is worth a maximum of 2.5% of the Course Grade. A grade of 100% will add 5% to the category and  2.5% to the course grade.</li>
+<li><strong>Include</strong> this Extra Credit item in the running course grade calculation.</li>
+<li>Indicate that this item is &quot;<strong>Extra Credit</strong>&quot;. That is, students are not required to be graded for this item and any grade given to a student for this item can only positively affect their course grade.</li>
+<li>Check <strong>Release Scores</strong> to let students see their scores and statistics for the item. Note: Usually, this is kept unchecked until the instructor is ready to release the item scores to the students. Instructors can always return to these settings and change the &quot;Release Scores&quot; setting later.</li>
+<li><span style="text-decoration:underline"><strong>Important:</strong></span> Do not check <strong>Give ungraded no credit</strong> for an Extra Credit item. Students that do not perform extra credit should not receive any grade for this item.</li>
+<li>Click <strong>Add/Close</strong> to add the Extra Credit item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27951" class="step-container">            <h3 class="step-title">Example: (Weighted Category gradebook - Scoring by Percentages)</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by-1-sm.png" width="640" height="227" class="step-image" alt="Example: (Weighted Category gradebook - Scoring by Percentages)" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by-1.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p><em>Tip: You might want to have a single &quot;Extra Credit&quot; item and just increase the awarded score as needed through the semester.</em></p></div>          </div>
+          <div class="clear"></div>          <div id="step-27952" class="step-container">            <h2 class="step-title">(Weighted Category gradebook - Scoring by Letter Grade) - Enter Extra Credit Item Information, then click Add/Close</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Letter-G-sm.png" width="640" height="312" class="step-image" alt="(Weighted Category gradebook - Scoring by Letter Grade) - Enter Extra Credit Item Information, then click Add/Close" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/-Weighted-Category-gradebook---Scoring-by-Letter-G.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><ol><li>Enter a <strong>Name</strong> for the Extra Credit item.</li>
+<li>Note that this new item is located in an existing <strong>Category.</strong></li>
+<li>Enter the<strong> Percentage </strong>of the category. For instance, in the example above the extra credit item is worth 5% of the Papers category. Since the papers category is worth 50% of the course grade, the extra credit item (if given full credit) is worth 2.5% of the course grade (.05 x 50).</li>
+<li>Enter a <strong>Points</strong> value for the Extra Credit Item.<em><strong> </strong></em>When grading by letter grade set this number to 100, as there is no 1 to 1 relationship between a letter grade and a point. In the example above, the point value is set to 100. Since, in this case, the item is worth a maximum of 2.5% of the course grade. A grade of A+  will add 4.9166 points to the category grade or approximately 2.5 points to the overall grade.</li>
+<li><strong>Include</strong> this Extra credit item in the running course grade calculation.</li>
+<li>Indicate that this item is &quot;<strong>Extra Credit</strong>&quot;. That is, students are not required to be graded for this item and any grade given to a student for this item can only positively affect their course grade.</li>
+<li>Check <strong>Release Scores</strong> to let students see their scores and statistics for the item. Note: Usually, this is kept unchecked until the instructor is ready to release the item scores to the students. Instructors can always return to these settings and change the &quot;Release Scores&quot; setting later.</li>
+<li><span style="text-decoration:underline"><strong>Important:</strong></span> Do not check <strong>Give ungraded no credit</strong> for an Extra Credit item. Students that do not perform extra credit should not receive any grade for this item.</li>
+<li>Click <strong>Add/Close</strong> to add the Extra Credit item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27953" class="step-container">            <h2 class="step-title">Example: (Weighted Category gradebook - Scoring by Letter Grade)</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by-2-sm.png" width="640" height="244" class="step-image" alt="Example: (Weighted Category gradebook - Scoring by Letter Grade)" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example---Weighted-Category-gradebook---Scoring-by-2.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>          </div>
+          <div class="clear"></div>          <div id="step-27954" class="step-container">            <h2 class="step-title">Case 2: Adding an extra credit category</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Case-2--Adding-an-extra-credit-category.png" width="483" height="384" class="step-image" alt="Case 2: Adding an extra credit category" />
+            
+          </div>
+            <div class="step-instructions"><p>Right-Click the name of the Gradebook and select <strong>Add New Category</strong>.</p>
+<p>This displays the Add New Category panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27955" class="step-container">            <h2 class="step-title">Enter the Category Information, then click Save/Close.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Enter-the-Category-Information--then-click-Save-Cl.png" width="622" height="280" class="step-image" alt="Enter the Category Information, then click Save/Close." />
+            
+          </div>
+            <div class="step-instructions"><ol><li>Enter a <strong>name</strong> of the category (usually &quot;Extra Credit&quot;).</li>
+<li>Enter the <strong>Percentage</strong> of the course grade. In the example above, the Extra Credit category allows a 100% increase in the course grade.</li>
+<li><strong>Include</strong> this Extra Credit category in the running course grade calculation.</li>
+<li>Indicate that this category is &quot;<strong>Extra Credit</strong>&quot;. That is, students are not required to be graded for any item in this category and any grade given to a student for any item in this category can only positively affect their course grade.</li>
+<li><strong>Release Scores</strong> is usually unchecked in the category set-up. Instructors can always edit individual graded items and decide if they want to release those scores to students or not.</li>
+<li>Leave Weight items equally unchecked so you can adjust the weight of individual extra credit items.</li>
+<li>Click <strong>Save/Close</strong> to add the Extra Credit item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27956" class="step-container">            <h2 class="step-title">Right-click the Extra Credit Category and select Add a new Item.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Right-click-the-Extra-Credit-Category-and-select-A.png" width="478" height="512" class="step-image" alt="Right-click the Extra Credit Category and select Add a new Item." />
+            
+          </div>
+            <div class="step-instructions"><p>This displays the Add New Item panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27957" class="step-container">            <h2 class="step-title">Enter the graded Item information, then click Add/Close.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Enter-the-graded-Item-information--then-click-Add-.png" width="613" height="361" class="step-image" alt="Enter the graded Item information, then click Add/Close." />
+            
+          </div>
+            <div class="step-instructions"><ol><li>Enter a <strong>Name</strong> for the Extra Credit item.</li>
+<li>Note that this new item is located in an existing <strong>Category </strong>(Extra Credit).</li>
+<li>Enter the<strong> Percentage </strong>of the category. For instance, in the example above the extra credit item is worth 100% of the Extra Credit category. When grading by points (on a 100 point scale) or grading by percentages (on a 0 to 100% scale), each point or percentage will increase the student's course grade by 1%.</li>
+<li>Enter a <strong>Points</strong> value for the Extra Credit Item.<em><strong> </strong></em>Set this number to 100. </li>
+<li><strong>Include</strong> this Extra Credit item in the running course grade calculation.</li>
+<li>Indicate that this item is &quot;<strong>Extra Credit</strong>&quot;. That is, students are not required to be graded for this item and any grade given to a student for this item can only positively affect their course grade.</li>
+<li>Check <strong>Release Scores</strong> to let students see their scores and statistics for the item. Note: Usually, this is kept unchecked until the instructor is ready to release the item scores to the students. Instructors can always return to these settings and change the &quot;Release Scores&quot; setting later.</li>
+<li><span style="text-decoration:underline"><strong>Important:</strong></span> Do not check <strong>Give ungraded no credit</strong> for an Extra Credit item. Students that do not perform extra credit should not receive any grade for this item.</li>
+<li>Click <strong>Add/Close</strong> to add the Extra Credit item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27958" class="step-container">            <h3 class="step-title">Example: Case 2: (Adding an extra credit category)</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example--Case-2---Adding-an-extra-credit-category--sm.png" width="640" height="222" class="step-image" alt="Example: Case 2: (Adding an extra credit category)" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-add-extra-credit-to-weighted-categories-i/Example--Case-2---Adding-an-extra-credit-category-.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p><em>Tip: In this set-up, to add .5% to a student's overall course grade, score the Extra Credit item &quot;.5&quot;</em></p></div>          </div>
+          <div class="clear"></div>      </div>      
+    </div>
+    
+    
+  </div>
+</body>
+</html>

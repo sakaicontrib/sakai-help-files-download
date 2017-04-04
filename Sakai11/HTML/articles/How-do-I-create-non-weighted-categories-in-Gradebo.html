@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How do I create non-weighted categories in Gradebook2?</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="sakai.gradebook.gwt.rpc" name="description">
+  <meta content="" name="search">
+  <link href="/library/skin/tool_base.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/tool.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/help.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/js/jquery/featherlight/0.4.0/featherlight.min.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <script src="/library/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/library/js/jquery/featherlight/0.4.0/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $("a[rel^='featherlight']").featherlight({
+        type: { image:true },
+		closeOnClick: 'anywhere'
+      }); 
+    }); 	
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="article-content">
+      <div id="article-header">
+        <h1 class="article-title">How do I create non-weighted categories in Gradebook2?</h1>
+      </div>
+
+            <div id="article-description">
+        <p>A non-weighted Categories gradebook is a simple gradebook that allows instructors to post grades for a series of items, which are organized in the Gradebook2 tool by Categories.</p>
+<p>Item grades can be further calculated into a running &quot;Course Grade&quot;, which is the calculated grade for all items that have been graded to date.</p>
+<p>The difference between a &quot;non-weighted gradebook&quot; and a &quot;non-weighted Categories gradebook&quot; is:</p>
+<ul><li>Graded items are organized in instructor created categories.</li>
+<li>Instructors have the option to drop the lowest (or a number of the lowest) grades in a Category.</li>
+</ul>
+      </div>      <div id="steps-container">          <div id="step-27869" class="step-container">            <h2 class="step-title">Go to Gradebook2.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Go-to-Gradebook2.png" width="103" height="145" class="step-image" alt="Go to Gradebook2." />
+            
+          </div>
+            <div class="step-instructions"><p>Select <strong>Gradebook2</strong> from the Tool Menu in your site.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27870" class="step-container">            <h2 class="step-title">Click Edit &gt; Gradebook Settings.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Click-Edit--gt--Gradebook-Settings.png" width="414" height="172" class="step-image" alt="Click Edit > Gradebook Settings." />
+            
+          </div>
+            <div class="step-instructions"><p>This displays the Gradebook Settings in the right panel.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27871" class="step-container">            <h3 class="step-title">Or, you may right-click the word Gradebook and select Edit this Gradebook.</h3>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Or--you-may-nbsp-right-click-the-word-Gradebook-an.png" width="411" height="195" class="step-image" alt="Or, you may right-click the word Gradebook and select Edit this Gradebook." />
+            
+          </div>          </div>
+          <div class="clear"></div>          <div id="step-27872" class="step-container">            <h2 class="step-title">Set-up Gradebook.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Set-up-Gradebook.png" width="637" height="518" class="step-image" alt="Set-up Gradebook." />
+            
+          </div>
+            <div class="step-instructions"><p>Gradebook Settings:</p>
+<p>1<em><strong>.   Name: </strong></em>By default The Gradebook is named &quot;Gradebook&quot;. if you export a copy of the gradebook to your computer, the filename will also be the default, &quot;Gradebook&quot;. Naming the gradebook makes it easy to identify the filename if you export a copy onto your computer. We recommend using the course name, quarter, and year, e.g., ENG001F11, or the actual site name.</p>
+<p>2.<em><strong>   Organize by: </strong></em>From the dropdown menu, choose the gradebook structure: For a simple non-weighted Categories Gradebook select &quot;Categories&quot;. This is a straightforward gradebook, listing gradable items organized by Categories. </p>
+<p>3.<em><strong>   Grade using: </strong></em>from the dropdown menu, choose the grading format. <em>Note: You may choose only one option. Gradebook2 does not allow multiple grading systems.</em></p>
+<p>     --- <span style="text-decoration:underline"><em>Points:</em></span> This is a grading option that is commonly used by many instructors. All the item’s points can add up to any total score and the Gradebook will automatically calculate the running Course Grade based on a 100% grade scale. If your gradebook is set up for points, the score entered for an item cannot be greater than the item's maximum possible points. You may enter a negative score.</p>
+<p>     --- <span style="text-decoration:underline"><em>Percentages:</em></span> This option allows instructors to enter a percentage, between 0 and 100, of an item's maximum points. The Gradebook automatically calculates the percentage of each item's maximum points for the Course Grade, based on a 100% grade scale. </p>
+<p><em>Note: For grading items in Assignments, Forums and Tests &amp; Quizzes, scores can only be entered as points. If, in those three tools, you set the maximum points at any value other than 100, the Gradebook converts those points to the 0-100 scale used in percentage grading. </em></p>
+<p>     --- <span style="text-decoration:underline"><em>Letter Grades:</em></span> This option allows instructors to enter letter scores of A+ thru F, and 0, in the spreadsheet for grading. For the running Course Grade calculation, the Gradebook automatically adds all the item’s letter grades and calculates the running course grade based on a 100% grade scale.</p>
+<p><em>Note: For grading items in Assignments, Forums and Tests &amp; Quizzes, scores can only be entered as points.  The Gradebook converts these points to a letter grade.</em> </p>
+<p>4.<em><strong>   Display To Students options:</strong></em> Gradebook2 allows instructors to release grade information to students. Checkmark any of the desired &quot;display to students&quot; settings</p>
+<p>     --- <span style="text-decoration:underline"><em>Course grades:</em></span> Check the box if you want students to see a running total of their earned course grade, based solely on the work they have turned in.</p>
+<p>     --- <span style="text-decoration:underline"><em>Released items:</em></span> This option is checked by default so students can see scores that the instructor has released via each item’s settings. Instructors can decide to release or not release individual item scores. It is recommended that this &quot;master&quot; checkbox remain checked and instructors release or not release scores via the individual graded item settings. <span style="color: rgb(0,0,0)"><em>Note: Uncheck this box if you do not want students to EVER see their scores for any items. </em></span></p>
+<p>     --- <span style="text-decoration:underline"><em>Mean:</em></span> Check the box to show students the mean, or average, of the class’ course grades.</p>
+<p>     --- <span style="text-decoration:underline"><em>Median:</em></span> Check the box to show students the median of the class’ course grades.</p>
+<p>     --- <span style="text-decoration:underline"><em>Mode:</em></span> Check the box to show students the scores found most often in the class’ set of course grades.</p>
+<p>     --- <span style="text-decoration:underline"><em>Class Rank:</em></span> Check this box to show each student her or his course grade’s class rank.</p>
+<p>     --- <span style="text-decoration:underline"><em>Statistics Chart:</em></span> Check this box to let students see statistics charts for released items.</p>
+<p>5.   Once you are satisfied with all your settings, click <strong>Save/Close</strong>.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27873" class="step-container">            <h2 class="step-title">Create a Category.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Create-a-Category.png" width="414" height="225" class="step-image" alt="Create a Category." />
+            
+          </div>
+            <div class="step-instructions"><p>To Create a Category, right-click (CTRL-Click Mac) the gradebook title and select <strong>Add new category</strong>.</p>
+<p>This displays the Add Category panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27874" class="step-container">            <h2 class="step-title">Enter Category information.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Enter-Category-information.png" width="636" height="267" class="step-image" alt="Enter Category information." />
+            
+          </div>
+            <div class="step-instructions"><p>Category Information:</p>
+<ol><li>Enter a <strong>Name</strong> for the category</li>
+<li>Instructors have the option to specify the number of lowest-score items in the category that they want to exclude from course grade calculations, by entering a number in the <strong>Drop lowest</strong> box. The Gradebook will display this number next to the category folder icon in the Gradebook tab of the Grade Items frame.</li>
+<li>Check the <strong>Include in grade</strong> box to include all items in the category in running Course Grade calculations.</li>
+<li>Check <strong>Extra credit</strong> if you want <span style="text-decoration:underline"><strong>all</strong></span><strong> </strong>items in the category to have no negative impact on grade course calculations</li>
+<li>The <strong>Release Scores</strong> option is unchecked by default. It is recommended that this &quot;semi-master&quot; checkbox remain unchecked and instructors release or not release scores via the individual graded item settings. Checking this box will automatically release the scores for all of the items in the category.</li>
+<li>Click <strong>Add</strong> if you want to add the Category and remain in the New Category frame to add another Category. Click <strong>Add/Close</strong> to add the Category and close the New Category frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27875" class="step-container">            <h3 class="step-title">Example of added Category:</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-added-Category--sm.png" width="640" height="188" class="step-image" alt="Example of added Category:" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-added-Category-.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>          </div>
+          <div class="clear"></div>          <div id="step-27876" class="step-container">            <h2 class="step-title">Add a grade item to the category.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Add-a-grade-item-to-the-category.png" width="420" height="259" class="step-image" alt="Add a grade item to the category." />
+            
+          </div>
+            <div class="step-instructions"><p>To add a grade item to the category, right-click (CTRL-Click Mac) the category title and select <strong>Add a new grade item</strong>.</p>
+<p>This displays the New Item panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27877" class="step-container">            <h2 class="step-title">Enter the Graded Item information.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Enter-the-Graded-Item-information.png" width="635" height="350" class="step-image" alt="Enter the Graded Item information." />
+            
+          </div>
+            <div class="step-instructions"><p>Item Information:</p>
+<ol><li>Enter a name for the item in the <strong>Name</strong> box.</li>
+<li>Note the <strong>Category</strong></li>
+<li>Enter a total <strong>Point</strong> value for the item. By default, this value is 100 points, If you are grading by Percentage or Letter Grade, leave this at 100; otherwise enter the point value for the graded item.</li>
+<li>Check <strong>Include in grade</strong> if you want the Gradebook to include this item in the running Course Grade calculations.</li>
+<li>Check <strong>Extra Credit</strong> if you want the item to have no negative impact on the course grade calculation. Extra Credit items can only add to the Course Grade, they cannot subtract from it.</li>
+<li>Check <strong>Release Scores</strong> to let students see their scores and statistics for the item. Note: Usually, this is kept unchecked until the instructor is ready to release the item scores to the students. Instructors can always return to these settings and change the &quot;Release Scores&quot; setting later.</li>
+<li>Check <strong>Give ungraded no credit</strong> if you want the Gradebook to treat blank entries as zeroes when calculating the course grade. Note: if checked, this means that all students will have a grade of &quot;0&quot; (rather than nothing). If this is checked on all graded items, students will begin with a Course Grade of &quot;F&quot; (rather than nothing). <span style="color: rgb(0,0,0)"><em>Note: Use this feature with caution</em></span><span style="color: rgb(255,0,0)">.</span></li>
+<li>Click <strong>Add</strong> if you want to add the item and remain in the New Item frame to add another item. Click <strong>Add/Close</strong> to add the item and close the New Item frame.</li>
+</ol></div>          </div>
+          <div class="clear"></div>          <div id="step-27878" class="step-container">            <h3 class="step-title">Example of the new item added to the Gradebook Category (Graded by Points):</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-the-new-item-added-to-the-Gradebook-Cat-sm.png" width="640" height="221" class="step-image" alt="Example of the new item added to the Gradebook Category (Graded by Points):" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-the-new-item-added-to-the-Gradebook-Cat.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>          </div>
+          <div class="clear"></div>          <div id="step-27879" class="step-container">            <h3 class="step-title">Example of the new item added to the Gradebook Category (Graded by Percentage):</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-the-new-item-added-to-the-Gradebook-Cat-1-sm.png" width="640" height="226" class="step-image" alt="Example of the new item added to the Gradebook Category (Graded by Percentage):" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-of-the-new-item-added-to-the-Gradebook-Cat-1.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>          </div>
+          <div class="clear"></div>          <div id="step-27880" class="step-container">            <h2 class="step-title">Display in spreadsheet.</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Display-in-spreadsheet-sm.png" width="640" height="179" class="step-image" alt="Display in spreadsheet." />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Display-in-spreadsheet.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p>To display the item in the spreadsheet, check the box next to the item name.</p>
+<p>This displays the item's grading column in the spreadsheet panel.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27881" class="step-container">            <h2 class="step-title">Enter Grades in the spreadsheet grading column.</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Enter-Grades-in-the-spreadsheet-grading-column-sm.png" width="640" height="184" class="step-image" alt="Enter Grades in the spreadsheet grading column." />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Enter-Grades-in-the-spreadsheet-grading-column.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p><em>Note:</em></p>
+<ul><li><em>Points: You can only enter a number in the range of 0 to the maximum number of points you listed for the grade item. </em></li>
+<li><em>Percentage: You can only enter a number in the range of 0% to 100 %</em></li>
+<li><em>Letter Grade: you can only enter a letter grade between F and A+</em></li>
+</ul></div>          </div>
+          <div class="clear"></div>          <div id="step-27882" class="step-container">            <h2 class="step-title">Release item grades to students.</h2>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Release-item-grades-to-students.png" width="421" height="286" class="step-image" alt="Release item grades to students." />
+            
+          </div>
+            <div class="step-instructions"><p>To release the item grades to students, right-click (CTRL-Click Mac) the grade item and select <strong>Edit this Item</strong>.</p>
+<p>This displays the Edit Item panel on the right.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27883" class="step-container">            <h3 class="step-title">Check Release Scores and click Save/Close.</h3>                      <div class="step-image-container">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Check-Release-Scores-and-click-Save-Close.png" width="633" height="350" class="step-image" alt="Check Release Scores and click Save/Close." />
+            
+          </div>
+            <div class="step-instructions"><p>This changes the item color to Blue and releases the item scores to the students.</p></div>          </div>
+          <div class="clear"></div>          <div id="step-27884" class="step-container">            <h3 class="step-title">Example:</h3>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example--sm.png" width="640" height="207" class="step-image" alt="Example:" />
+                        <div class="step-image-caption">
+              <a href="../images/How-do-I-create-non-weighted-categories-in-Gradebo/Example-.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>          </div>
+          <div class="clear"></div>      </div>      
+    </div>
+    
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Why are some item scores displayed in red with a strike-through in Gradebook2?</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="sakai.gradebook.gwt.rpc" name="description">
+  <meta content="" name="search">
+  <link href="/library/skin/tool_base.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/tool.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/skin/neo-default/help.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="/library/js/jquery/featherlight/0.4.0/featherlight.min.css" media="screen" rel="stylesheet" type="text/css" charset="utf-8" />
+  <script src="/library/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/library/js/jquery/featherlight/0.4.0/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $("a[rel^='featherlight']").featherlight({
+        type: { image:true },
+		closeOnClick: 'anywhere'
+      }); 
+    }); 	
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="article-content">
+      <div id="article-header">
+        <h1 class="article-title">Why are some item scores displayed in red with a strike-through in Gradebook2?</h1>
+      </div>
+
+            <div id="article-description">
+        <p>When you view item scores in the spreadsheet frame or Student Summary frame of Gradebook2, you may notice some item scores are displayed in red with a strike-through. You'll see a score displayed this way when an item has been excluded from course grade calculations.</p>
+      </div>      <div id="steps-container">          <div id="step-28028" class="step-container">            <h2 class="step-title">Example of &quot;red strike-through&quot; scores.</h2>                      <div class="step-image-container step-image-fullsize">
+            <img src="../images/Why-are-some-item-scores-displayed-in-red-with-a-s/Example-of--red-strike-through--scores-sm.png" width="640" height="358" class="step-image" alt="Example of "red strike-through" scores." />
+                        <div class="step-image-caption">
+              <a href="../images/Why-are-some-item-scores-displayed-in-red-with-a-s/Example-of--red-strike-through--scores.png" rel="prettyPhoto" target="_blank">Zoom</a>
+            </div>
+          </div>
+            <div class="step-instructions"><p>An item is excluded from course grade calculations for one of two reasons:</p>
+<ul><li>The item is a &quot;lowest score&quot; item in its category. If you have set up your Gradebook for categories or weighted categories, one of your options when creating a category is &quot;Drop lowest.&quot; This option lets you specify that a certain number of lowest-score items for each student will be excluded from course grade calculations.  This is the example demonstrated above.</li>
+<li>The item has been &quot;excused&quot; for that student. To excuse an item, you access the Student Summary frame for the student, select the Excuses tab, and click on the checkbox for the item. If you no longer want to excuse the item, simply uncheck it.</li>
+</ul>
+<p>When using the Drop lowest option, keep in mind the following:</p>
+<ul><li>When you enter scores in a category set to drop lowest-score items, Gradebook2 does not drop scores until you have at least one more scored item than the number set to be dropped. If a category is set to drop two lowest-score items, for example, you must score three items in order to drop the two items with lowest scores.</li>
+<li>Excusing an item in a category set to drop lowest can affect which items are counted as &quot;lowest score,&quot; since the excused item will no longer be included in the calculation. If you excuse an item that is already being counted as a lowest score item, for example, then another item will get counted as &quot;lowest score.&quot;</li>
+</ul></div>          </div>
+          <div class="clear"></div>      </div>      
+    </div>
+    
+    
+  </div>
+</body>
+</html>

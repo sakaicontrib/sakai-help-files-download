@@ -1,3 +1,5 @@
+# **This repository is deprecated and only worked with the old screensteps api.**
+
 sakai-help-files-download
 =========================
 
